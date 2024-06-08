@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"tinygo.org/x/go-llvm"
+	"guayavita.dev/gvc/cmd"
 )
 
 func main() {
-	fmt.Printf("GVC 0.0.1 LLVM %s\n", llvm.Version)
+	cmd.Execute()
 }
