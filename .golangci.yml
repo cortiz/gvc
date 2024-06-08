@@ -42,6 +42,22 @@ run:
   # Default: use Go version from the go.mod file, fallback on the env var `GOVERSION`, fallback on 1.17
   go: '1.22'
 
+linters:
+  enable:
+    - zerologlint
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - copyloopvar
+    - dupword
+    - err113
+    - errname
+    - errorlint
+    - exhaustive
+    - goconst
 linters-settings:
   errcheck:
     ignore: ''
